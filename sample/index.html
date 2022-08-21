@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Pure Image Gallery</title>
+    <link rel="stylesheet" href="../imageGalleryPure.css" />
+</head>
+<body>
+    <div id="image-gallery"></div>
+    <script src="./data.js"></script>
+    <script type="module">
+        import { imageGalleryPure } from '../imageGalleryPure.js';
+        imageGalleryPure.set({
+            id: "image-gallery",
+            data: datas,
+            isBase64: true,
+            texts: {
+                play: "Play",
+                pause: "Pause",
+                close: "Close",
+                onceEvery: "Once every "
+            },
+            thumbnail: {
+                height: "64px",
+                width: "64px"
+            },
+            footer: {
+                height: "64px",
+                width: "64px"
+            }
+        });
+    </script>
+</body>
+</html>

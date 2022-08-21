@@ -1,0 +1,27 @@
+{
+  "name": "imagegallerypure",
+  "version": "1.0.1",
+  "description": "Image gallery with thumbnails",
+  "main": "imageGalleryPure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/frknclskn/imageGalleryPure"
+  },
+  "keywords": [
+    "javascript",
+    "pure",
+    "javascript",
+    "img",
+    "image",
+    "html",
+    "css",
+    "thumbnails",
+    "gallery",
+    "carousel"
+  ],
+  "author": "Furkan ÇALIŞKAN",
+  "license": "ISC"
+}
